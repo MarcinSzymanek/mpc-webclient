@@ -1,0 +1,17 @@
+button {
+    height: 2rem;
+    padding-top:0.3rem;
+    padding-bottom:0.3rem;
+    justify-content: center;
+    box-shadow: 0.1rem 0.1rem rgb(123, 90, 69);
+}
+
+.addCartButton{
+    background-color: #D77B11;
+    color:white;
+}
+
+.outOfStockButton{
+    background-color: grey;
+    color:white;
+}

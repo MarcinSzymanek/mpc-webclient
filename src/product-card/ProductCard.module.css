@@ -1,0 +1,75 @@
+.wrapper{
+    /* min-width: 20rem; */
+    width: 20rem;
+    height: 20rem;
+    display:grid;
+    background-color: white;
+    grid-template-areas:
+    'img img img'
+    'img img img'
+    'details details details';
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.516) 0.2rem 0.4rem 0.3rem;
+}
+
+.dropdownWrapper {
+    position: relative;
+    bottom: 14rem;
+    left: 0.5rem;
+    max-width: fit-content;
+    border-style:none;
+    box-shadow: none;
+}
+
+.dropdown {
+    box-shadow: none;
+    border: none;
+}
+
+.imgWrapper {
+    grid-area: img;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+}
+
+img {
+    grid-area: img;
+    width:auto;
+    height:100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+}
+
+
+.details{
+    grid-area: details;
+    display:grid;
+    gap: 1rem;
+    grid-template-areas:
+    'name name'
+    'price button';
+    color:black;
+    justify-items: center;
+    align-items: center;
+}
+
+.name{
+    grid-area: name;
+    font-size:large;
+}
+
+.price{
+    grid-area: price;
+    font-weight: 800;
+    font-size: larger;
+}
+

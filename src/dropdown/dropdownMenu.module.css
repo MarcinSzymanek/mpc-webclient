@@ -1,0 +1,22 @@
+.wrapper{
+    background-color: transparent;
+}
+
+.menu{
+    padding:0;
+    margin:0;
+    background-color: transparent;
+}
+
+.menuItem{
+    font-size: small;
+    border-top: 1px solid rgb(169, 169, 169);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.selected{
+    width: fit-content;
+    font-size: small;
+    box-shadow: 2px 2px black;
+}
